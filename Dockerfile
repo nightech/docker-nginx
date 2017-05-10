@@ -1,4 +1,4 @@
-FROM nginx:1.11
+FROM nginx:1.13
 
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends curl && \
